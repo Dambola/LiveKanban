@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "livekanban"
+version = "0.1.0"
+description = "Live Kanban"
+authors = ["Daniel N. Rebouças <danielnreboucas@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flask-sqlalchemy = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
